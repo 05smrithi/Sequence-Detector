@@ -83,6 +83,7 @@ module moore_sequence_detector (
         endcase
     end
 endmodule
+
 Output:
 ![Screenshot 2024-11-13 173703](https://github.com/user-attachments/assets/13d6097b-1e12-4a06-a282-10275ca37929)
 
@@ -198,6 +199,7 @@ module sequence_detector_tb;
                  $time, seq_in, moore_detected, mealy_detected);
     end
 endmodule
+
 Output:
 ![Screenshot 2024-11-13 173713](https://github.com/user-attachments/assets/368b629e-ff47-4ede-a1e6-369c95bc0024)
 
